@@ -23,6 +23,7 @@ function Contact() {
     if (response.ok) {
       setStatus('SUCCESS');
       form.reset();
+      alert('Your message is submitted')
     } else {
       setStatus('ERROR');
     }
