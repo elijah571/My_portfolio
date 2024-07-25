@@ -1,6 +1,6 @@
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile from '../../assets/profile.jpeg';
+import profile from '../../assets/profile.jpg';
 function About() {
   return (
     <div id='about' className='about'>

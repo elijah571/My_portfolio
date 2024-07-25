@@ -1,7 +1,7 @@
 import './MyWork.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import mywork_data from '../../assets/mywork_data';
-import arrow_icon from '../../assets/arrow_icon.svg';
+// import arrow_icon from '../../assets/arrow_icon.svg';
 
 function MyWork() {
   return (
@@ -17,10 +17,10 @@ function MyWork() {
           </a>
         ))}
       </div>
-      <div className="mywork-showmore">
+      {/* <div className="mywork-showmore">
         <p>Show More</p>
         <img src={arrow_icon} alt="Arrow icon" />
-      </div>
+      </div> */}
     </div>
   );
 }

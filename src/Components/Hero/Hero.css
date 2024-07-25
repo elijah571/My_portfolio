@@ -48,6 +48,12 @@
     border: 1px solid #fff;
     cursor: pointer;
 }
+.hero-resume a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+
+}
 .hero-connect:hover{
     border:  1px solid white;
 }

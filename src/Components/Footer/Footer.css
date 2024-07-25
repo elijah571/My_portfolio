@@ -4,6 +4,9 @@
     flex-direction:column;
     gap:15px;
 }
+.logo{
+    width: 100px;
+}
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -16,11 +19,11 @@
 .footer-top-right{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .footer-email-input{
     display:flex;
-    gap:20px;
+    gap:5px;
     border-radius:50px;
     background:#32323B;
     padding-right:20px 30px;

@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-      <img src={logo} alt="logo" />
+      <img className='logo' src={logo} alt="logo" />
       <img src={menu_open} onClick={openMenu} className='nav-mob-open'/>
 
       
