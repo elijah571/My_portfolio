@@ -7,10 +7,14 @@ function MyWork() {
   return (
     <div id='work' className='mywork'>
       <div className="mywork-title">
-        <h1>My latest work</h1>
+     
+
+        <h1>Click  to View the Project </h1>
+       
         <img src={theme_pattern} alt="Theme pattern" />
       </div>
       <div className="mywork-container">
+        
         {mywork_data.map((work, index) => (
           <a key={index} href={work.url} target="_blank" rel="noopener noreferrer">
             <img src={work.w_img} alt={work.w_name} />
@@ -21,8 +25,10 @@ function MyWork() {
         <p>Show More</p>
         <img src={arrow_icon} alt="Arrow icon" />
       </div> */}
+       
     </div>
   );
+ 
 }
 
 export default MyWork;
