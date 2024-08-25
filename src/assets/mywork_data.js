@@ -16,7 +16,7 @@ const mywork_data = [
         w_no: 2,
         w_name: "Web design",
         w_img: project_img2,
-        url: "https://spotify-clone-two-drab.vercel.app/"
+        url: "https://spotify-clone-two-drab.vercel.app/"  
     },
     {
         w_no: 3,
