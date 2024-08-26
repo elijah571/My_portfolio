@@ -11,7 +11,7 @@ function Hero() {
         <div className="hero-action">
             <div className="hero-connect">  
               <AnchorLink className='anchor-link' href='#contact'> Connect with me  </AnchorLink></div>
-            <div className="hero-resume"> <a href="https://drive.google.com/file/d/16py4c9aQO23OoEjJXFMlcPFFxbJWz24c/view?usp=drivesdk"> My resume </a> </div>
+            <div className="hero-resume"> <a href="https://drive.google.com/file/d/1QeJ0TMKQ318KaHyS33Q3YrMYaPI3JKaU/view?usp=drivesdk"> My resume </a> </div>
         </div>
     </div>
   )
